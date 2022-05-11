@@ -185,6 +185,20 @@
                     <p class="text-muted mb-5">Gotowy do rozpoczęcia kolejnego leczenia u nas? Wyślij nam wiadomość lub
                         zadzwoń. Zrób wymarzony zabieg w najlepszej cenie.</p>
                     <br>
+                    
+                        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
+                    
                     <div class="map-container">
                         <div style="width: 100%"><iframe scrolling="no" marginheight="0" marginwidth="0"
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2442.817817023025!2d21.010228051249996!3d52.246692679664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc66759863d1%3A0x28b28d524d8f6b6b!2sSenatorska%202%2C%2000-075%20Warszawa!5e0!3m2!1sen!2spl!4v1652303943885!5m2!1sen!2spl"
@@ -226,19 +240,7 @@
         </div>
     </section>
     <!--Contact Icons!-->
-    
-    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
-  <fieldset id="fs-frm-inputs">
-    <label for="full-name">Full Name</label>
-    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-    <label for="email-address">Email Address</label>
-    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-    <label for="message">Message</label>
-    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-  </fieldset>
-  <input type="submit" value="Submit">
-</form>
+   
     
     <!-- Footer-->
     <footer class="bg-light py-5">
